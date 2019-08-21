@@ -1,11 +1,11 @@
 import pytest
-import os
-import sys
+# import os
+# import sys
 
-src_dir = os.path.join(os.getcwd(), '..', '..', 'src')
-sys.path.append(src_dir)
+# src_dir = os.path.join(os.getcwd(), '..', '..', 'src')
+# sys.path.append(src_dir)
 
-from my_third_package.number_time import add_twenty_to_anything
+from ../../src/my_third_package.number_time import add_twenty_to_anything
 
 class TestAddTwentyToAnything(object):
 
