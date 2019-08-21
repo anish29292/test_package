@@ -5,4 +5,4 @@ setup(name='src',
       description='test',
       author='Misha',
       author_email='misha.berrien@gmail.com',
-      packages=['my_second_package', 'my_third_package'])
+      packages=['my_third_package'])
