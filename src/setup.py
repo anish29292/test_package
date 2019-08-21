@@ -5,10 +5,10 @@ install_requires = [
     'numpy>=1.15.4',
     'functools']
 
-setup(name='misha_math',
+setup(name='PACKAGE NAME HERE',
       version='0.0.1',
       description='test',
-      author='Misha Berrien',
+      author='YOUR NAME HERE',
       install_requires=install_requires,
-      author_email='misha.berrien@gmail.com',
+      author_email='fake-email@gmail.com',
       packages=['mypackage_one', 'mypackage_two'])
